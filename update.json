@@ -1,11 +1,11 @@
 {
-  "version": "0.0.3",
-  "notes": "Abyssal Stack release v0.0.3",
-  "pub_date": "2026-10-16T20:48:18Z",
+  "version": "0.0.4",
+  "notes": "Abyssal Stack release v0.0.4",
+  "pub_date": "2026-10-16T20:59:32Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/Lumina-Stacks/abyssalstack/releases/download/v0.0.3/Abyssal.Stack_0.0.3_x64-setup.exe"
+      "url": "https://github.com/Lumina-Stacks/abyssalstack/releases/download/v0.0.4/Abyssal.Stack_0.0.4_x64-setup.exe"
     }
   }
 }
