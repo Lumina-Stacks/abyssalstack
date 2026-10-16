@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": 1,
+  "updated_at": "2026-10-16T20:00:00Z",
+  "author": "Abyssal Stack Team",
+  "servers": [
+    {
+      "id": "caddy",
+      "name": "Caddy Server",
+      "version": "2.9.1",
+      "arch": "windows-amd64",
+      "url": "https://caddyserver.com/api/download?os=windows&arch=amd64",
+      "description": "Enterprise-grade HTTP/2 & HTTP/3 reverse proxy with automated local SSL certificates.",
+      "size_mb": 35
+    }
+  ],
+  "php": [
+    {
+      "version": "8.5",
+      "name": "PHP 8.5.11 (Latest)",
+      "release_title": "PHP 8.5 (Latest Master)",
+      "channel": "latest",
+      "arch": "x64-nts",
+      "url": "https://windows.php.net/downloads/releases/archives/php-8.5.11-nts-Win32-vs17-x64.zip",
+      "filename": "php-8.5.11-nts-Win32-vs17-x64.zip",
+      "description": "Bleeding edge release build with modern JIT & SQLite built-in.",
+      "size_mb": 31
+    },
+    {
+      "version": "8.4",
+      "name": "PHP 8.4.26",
+      "release_title": "PHP 8.4 (Modern Stable)",
+      "channel": "stable",
+      "arch": "x64-nts",
+      "url": "https://windows.php.net/downloads/releases/archives/php-8.4.26-nts-Win32-vs17-x64.zip",
+      "filename": "php-8.4.26-nts-Win32-vs17-x64.zip",
+      "description": "Recommended modern production release. Supports property hooks and asymmetric visibility.",
+      "size_mb": 30
+    },
+    {
+      "version": "8.3",
+      "name": "PHP 8.3.35",
+      "release_title": "PHP 8.3 (LTS Stable)",
+      "channel": "stable",
+      "arch": "x64-nts",
+      "url": "https://windows.php.net/downloads/releases/archives/php-8.3.35-nts-Win32-vs16-x64.zip",
+      "filename": "php-8.3.35-nts-Win32-vs16-x64.zip",
+      "description": "Active LTS release for Laravel, Symfony, and major frameworks.",
+      "size_mb": 30
+    },
+    {
+      "version": "8.2",
+      "name": "PHP 8.2.34",
+      "release_title": "PHP 8.2 (LTS)",
+      "channel": "stable",
+      "arch": "x64-nts",
+      "url": "https://windows.php.net/downloads/releases/archives/php-8.2.34-nts-Win32-vs16-x64.zip",
+      "filename": "php-8.2.34-nts-Win32-vs16-x64.zip",
+      "description": "Widely compatible release for legacy projects.",
+      "size_mb": 29
+    },
+    {
+      "version": "8.1",
+      "name": "PHP 8.1.34",
+      "release_title": "PHP 8.1 (Legacy)",
+      "channel": "legacy",
+      "arch": "x64-nts",
+      "url": "https://windows.php.net/downloads/releases/archives/php-8.1.34-nts-Win32-vs16-x64.zip",
+      "filename": "php-8.1.34-nts-Win32-vs16-x64.zip",
+      "description": "Legacy compatibility build for older applications.",
+      "size_mb": 29
+    }
+  ],
+  "databases": [
+    {
+      "engine": "mariadb",
+      "version": "11.4.5",
+      "name": "MariaDB 11.4.5 LTS",
+      "release_title": "MariaDB 11.4 LTS (Recommended)",
+      "channel": "stable",
+      "url": "https://archive.mariadb.org/mariadb-11.4.5/winx64-packages/mariadb-11.4.5-winx64.zip",
+      "filename": "mariadb-11.4.5-winx64.zip",
+      "default_port": 3306,
+      "description": "Fast, lightweight community database engine. Zero-config startup, fully MySQL protocol compatible.",
+      "size_mb": 86
+    },
+    {
+      "engine": "mariadb-10",
+      "version": "10.11.11",
+      "name": "MariaDB 10.11 LTS",
+      "release_title": "MariaDB 10.11 LTS (Classic)",
+      "channel": "stable",
+      "url": "https://archive.mariadb.org/mariadb-10.11.11/winx64-packages/mariadb-10.11.11-winx64.zip",
+      "filename": "mariadb-10.11.11-winx64.zip",
+      "default_port": 3307,
+      "description": "Rock-solid long-term enterprise release for legacy MySQL/MariaDB workloads.",
+      "size_mb": 85
+    }
+  ],
+  "tools": [
+    {
+      "id": "phpmyadmin",
+      "name": "phpMyAdmin 5.2.2",
+      "version": "5.2.2",
+      "url": "https://files.phpmyadmin.net/phpMyAdmin/5.2.2/phpMyAdmin-5.2.2-all-languages.zip",
+      "filename": "phpMyAdmin-5.2.2-all-languages.zip",
+      "description": "Popular visual web GUI for MySQL and MariaDB management with multi-server auto-discovery.",
+      "size_mb": 15
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "notes": "Beta release of Abyssal Stack desktop environment.",
+  "pub_date": "2026-10-16T20:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://github.com/Lumina-Stacks/abyssalstack/releases/download/v0.0.1/Abyssal.Stack_0.0.1_x64_en-US.msi"
+    }
+  }
+}
