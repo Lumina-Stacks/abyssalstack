@@ -106,6 +106,15 @@
       "filename": "phpMyAdmin-5.2.2-all-languages.zip",
       "description": "Popular visual web GUI for MySQL and MariaDB management with multi-server auto-discovery.",
       "size_mb": 15
+    },
+    {
+      "id": "adminer",
+      "name": "Adminer 4.17.1",
+      "version": "4.17.1",
+      "url": "https://github.com/vrana/adminer/releases/download/v4.17.1/adminer-4.17.1.php",
+      "filename": "adminer-4.17.1.php",
+      "description": "Ultra-lightweight single-file database management tool with full PHP 8.4+ compatibility.",
+      "size_mb": 1
     }
   ]
 }
