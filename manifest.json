@@ -9,9 +9,10 @@
       "name": "Caddy Server",
       "version": "2.9.1",
       "arch": "windows-amd64",
-      "url": "https://caddyserver.com/api/download?os=windows&arch=amd64",
+      "url": "https://github.com/caddyserver/caddy/releases/download/v2.9.1/caddy_2.9.1_windows_amd64.zip",
+      "filename": "caddy_2.9.1_windows_amd64.zip",
       "description": "Enterprise-grade HTTP/2 & HTTP/3 reverse proxy with automated local SSL certificates.",
-      "size_mb": 35
+      "size_mb": 18
     }
   ],
   "php": [
