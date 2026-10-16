@@ -115,6 +115,15 @@
       "filename": "adminer-6.1.2.php",
       "description": "Next-gen lightweight database management tool with full PHP 8.4+ support and modern UI.",
       "size_mb": 1
+    },
+    {
+      "id": "adminer-4",
+      "name": "Adminer 4.17.1 (LTS)",
+      "version": "4.17.1",
+      "url": "https://github.com/vrana/adminer/releases/download/v4.17.1/adminer-4.17.1.php",
+      "filename": "adminer-4.17.1.php",
+      "description": "Classic single-file database management tool for legacy PHP environments.",
+      "size_mb": 1
     }
   ]
 }
