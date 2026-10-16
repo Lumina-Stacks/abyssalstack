@@ -1,11 +1,11 @@
 {
   "version": "${VERSION_NUM}",
-  "notes": "Abyssal Stack release v0.0.1",
+  "notes": "Abyssal Stack release v0.0.2",
   "pub_date": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/Lumina-Stacks/abyssalstack/releases/download/v0.0.1/Abyssal-Stack_${VERSION_NUM}_x64-setup.exe"
+      "url": "https://github.com/Lumina-Stacks/abyssalstack/releases/download/v0.0.2/Abyssal-Stack_${VERSION_NUM}_x64-setup.exe"
     }
   }
 }
